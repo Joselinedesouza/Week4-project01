@@ -178,3 +178,137 @@ footer {
 footer a {
     color: fuchsia;
 }
+
+
+@media screen and (min-width: 768px) {
+
+    header p {
+        font-size: 20px;
+    }
+
+ header ul li{
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+
+main {
+    padding: 20px;
+    font-size: 20px;
+}
+article h1 {
+    font-size: 64px;
+}
+article h2 {
+    font-size: 25px ;
+    font-weight: bold;
+
+}
+table caption {
+    font-size: 15px;
+}
+
+
+    table {
+        width: 60%; /* Non forza la larghezza al 100% */
+        max-width: 100%; /* Evita che sfori il contenitore */
+        margin: 0 auto; /* La centra orizzontalmente */
+        table-layout: fixed; /* Mantiene la dimensione uniforme delle colonne */
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+ 
+    th, td {
+        padding: 8px;
+        text-align: center;
+        white-space: nowrap; /* Evita che il testo vada a capo */
+        font-size: 1rem; /* Riduce leggermente il testo per dispositivi piccoli */
+    }
+ 
+    thead {
+        background-color: #3f6bca; /* Mantiene il colore della riga di intestazione */
+        color: white;
+    }
+ 
+    tbody tr:nth-child(even) {
+        background-color: #f3f3f3; /* Alterna i colori delle righe */
+    }
+    
+   section h2 {
+    background-color: #969494;
+   }
+   section form input {
+    width: 80%;
+    height: 40px;
+   }
+   section button {
+    height: 40px;
+   }
+
+}
+
+
+@media screen and (min-width: 1200px) {
+    header {
+          
+      position: relative;
+      height: 100px;
+        
+    }
+    header div img{
+        float: left; 
+        margin-right: 20px;
+       
+      
+      width: 150px;   /*Non riesco a  c'entare il tutto ne header :( */
+        
+        
+    }
+       header p {
+        float: left;
+        margin-left: 30px;
+
+    }
+
+article h1 {
+    font-size: 50px;
+}
+main {
+        padding: 20px;
+        font-size: 20px;
+        overflow: auto;
+    height: auto;}
+    table {
+        width: 70%; /* Non forza la larghezza al 100% */
+        max-width: 100%; /* Evita che sfori il contenitore */
+        margin: 0 auto; /* La centra orizzontalmente */
+        table-layout: fixed; /* Mantiene la dimensione uniforme delle colonne */
+        margin-bottom: 50px;
+        margin-top: 50px;
+        height: 300px;
+    }
+ 
+    iframe {
+      
+        float: left;        /* Affianca i contenitori a sinistra */
+  width: 50%;         /* Imposta la larghezza dei contenitori */
+  height: 200px;
+  text-align: center;
+
+    }
+    section {
+        width: 50%;
+        float: right;
+        padding: 0;
+        height: 200px
+    }
+
+    aside div {
+        float: left;
+        width: 30%;
+        max-width: 100%;
+      
+    }
+}
+
